@@ -16,6 +16,16 @@ The book is available on [iBooks](https://itunes.apple.com/us/book/the-swift-pro
 
 [Apple Swift Resources](http://developer.apple.com/swift/resources/)
 
+[Swift Standard Library](https://developer.apple.com/reference/swift#//apple_ref/doc/uid/TP40014608)
+
+[Swift.org](https://swift.org)
+
+[Swift 3 Cheat Sheet](https://github.com/iwasrobbed/Swift-CheatSheet)
+
+[Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
+
+[This Week in Swift](https://swiftnews.curated.co)
+
 ## Schedule
 
 **Nov 3:**
