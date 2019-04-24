@@ -6,7 +6,7 @@ The book is available on [iBooks](https://itunes.apple.com/us/book/the-swift-pro
 
 ## How to Swift
 
-[IBM Swift Sandbox](https://swiftlang.ng.bluemix.net/#/repl)
+[Online Swift Sandbox](http://online.swiftplayground.run)
 
 [Playgrounds-appen](http://www.apple.com/swift/playgrounds/)
 
