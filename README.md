@@ -8,7 +8,7 @@ The book is available on [iBooks](https://itunes.apple.com/us/book/the-swift-pro
 
 [Online Swift Sandbox](http://online.swiftplayground.run)
 
-[Playgrounds-appen](http://www.apple.com/swift/playgrounds/)
+[Playgrounds-app](http://www.apple.com/swift/playgrounds/)
 
 [Xcode på Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 
