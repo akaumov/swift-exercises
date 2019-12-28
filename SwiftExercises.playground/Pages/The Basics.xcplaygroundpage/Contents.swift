@@ -52,3 +52,74 @@ print(type(of: pi))
 //1.12
 let pi2 = 3.14159
 let approximatePi: Int = Int(pi2)
+
+//1.13
+let valueA: Int16 = -0x8000
+let valueB: Int16 = 0x4000 << 1
+
+print(valueA == valueB)
+print("valueA = \(valueA) valueB = \(valueB)")
+
+//1.14
+//Single line
+/*
+ * Multiline
+ * comment
+ */
+
+//1.15
+/*
+* /* Nested multiline comment*/
+*/
+
+//1.16
+let player = (number: 10, name: "Ovechkin")
+
+//1.17
+// By using decomposition
+let (number, name) = player
+
+// By using indexes
+player.0
+player.1
+
+// By using labels
+player.name
+player.number
+
+print("Hockey player number: \(number), name: \(name)")
+
+//1.18
+let optionalConstant: Int?
+optionalConstant = 35
+
+
+//1.19
+let value: Int? = 17
+
+// We have to use implicitly unwrapping optionals
+let banana1: Int! = value
+
+// Or optional binding
+if let banana: Int = value {
+    print(banana)
+}
+
+// Or forced unwrapping
+let banana2: Int = value!
+
+//1.20
+// Compile time error
+let value1: Int? = nil
+//let banana3: Int  = value1!
+
+
+// Experiment
+//let someNilValue = nil // nil value requires explicit type declaration
+//print(type(of: someNilValue))
+
+//1.21
+// Hehe. Old answer. Because the "value" is constant, than I think it is better to use implicitly unwrapping optionals
+
+let banana4: Int! = value
+
