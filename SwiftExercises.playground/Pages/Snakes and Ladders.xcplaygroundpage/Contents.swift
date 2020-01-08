@@ -63,13 +63,14 @@ func moveGamerToNexPosition(gamers: inout [String:Int], gamerId: String)  {
 func playGame(numberOfGamers: Int) {
 
     var gamers = createGamers(numberOfGamers)
+    let gamersIds = gamers.keys.sorted()
     
     print("Start the game")
-    print("Gamers: \(gamers)")
+    print("Gamers: \(gamersIds)")
     print("\n🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁\n")
     
     while true {
-        for gamerId in gamers.keys {
+        for gamerId in gamersIds {
             print(gamerId)
             moveGamerToNexPosition(gamers: &gamers, gamerId: gamerId)
             
@@ -77,6 +78,7 @@ func playGame(numberOfGamers: Int) {
             if currentPosition > lastCellNumber {
                 print("\n🏁🏁🏁🏁🏁🏁🏁🏁🏁🏁")
                 print("🥇 \(gamerId) is the winner!")
+                
                 return
             }
         }
