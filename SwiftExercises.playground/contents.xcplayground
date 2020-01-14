@@ -7,5 +7,6 @@
         <page name='Collection Types'/>
         <page name=' Control Flow'/>
         <page name='Snakes and Ladders'/>
+        <page name='Functions'/>
     </pages>
 </playground>
